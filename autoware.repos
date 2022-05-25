@@ -81,9 +81,9 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
     version: main
-  vehicle/isuzu_launch:
+  vehicle/isuzu_vehicle_launch:
     type: git
-    url: https://github.com/vautonomous/isuzu_launch.git
+    url: https://github.com/vautonomous/isuzu_vehicle_launch.git
     version: master
   vehicle/pacmod_interface:
     type: git
