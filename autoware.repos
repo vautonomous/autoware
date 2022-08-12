@@ -66,7 +66,7 @@ repositories:
   sensor_component/external/applanix:
     type: git
     url: https://github.com/vautonomous/applanix.git
-    version: main
+    version: on_vehicle
   sensor_component/external/velodyne_vls:
     type: git
     url: https://github.com/tier4/velodyne_vls.git
