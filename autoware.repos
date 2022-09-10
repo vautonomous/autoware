@@ -102,3 +102,13 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
     version: main
+  # local_pose_publisher
+  universe/external/local_pose_publisher:
+    type: git
+    url: https://github.com/vautonomous/local_pose_publisher.git
+    version: main
+  # ui_process_manager
+  universe/external/ui_process_manager:
+    type: git
+    url: https://github.com/vautonomous/ui_process_manager.git
+    version: main
