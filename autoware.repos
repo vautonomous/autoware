@@ -6,8 +6,8 @@ repositories:
     version: main
   core/autoware_common:
     type: git
-    url: https://github.com/autowarefoundation/autoware_common.git
-    version: main
+    url: https://github.com/vautonomous/autoware_common.git
+    version: on-vehicle
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
