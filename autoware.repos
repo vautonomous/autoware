@@ -106,7 +106,7 @@ repositories:
   universe/external/local_pose_publisher:
     type: git
     url: https://github.com/vautonomous/local_pose_publisher.git
-    version: main
+    version: master
   # ui_process_manager
   universe/external/ui_process_manager:
     type: git
