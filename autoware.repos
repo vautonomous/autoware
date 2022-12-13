@@ -3,32 +3,32 @@ repositories:
   core/autoware_msgs:
     type: git
     url: https://github.com/vautonomous/autoware_msgs.git
-    version: main
+    version: galactic-backup
   core/autoware_common:
     type: git
     url: https://github.com/vautonomous/autoware_common.git
-    version: on-vehicle
+    version: galactic-backup
   core/autoware.core:
     type: git
     url: https://github.com/vautonomous/autoware.core.git
-    version: main
+    version: galactic-backup
   core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
     type: git
     url: https://github.com/vautonomous/autoware_auto_msgs.git
-    version: tier4/main
+    version: galactic-backup
   # universe
   universe/autoware.universe:
     type: git
     url: https://github.com/vautonomous/autoware.universe.git
-    version: on-vehicle
+    version: galactic-backup
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/vautonomous/tier4_ad_api_adaptor.git
-    version: tier4/universe
+    version: galactic-backup
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/vautonomous/tier4_autoware_msgs.git
-    version: on-vehicle
+    version: galactic-backup
   universe/external/grid_map:
     type: git
     url: https://github.com/vautonomous/grid_map.git
@@ -36,33 +36,33 @@ repositories:
   universe/external/morai_msgs:
     type: git
     url: https://github.com/vautonomous/MORAI-ROS2_morai_msgs.git
-    version: main
+    version: galactic-backup
   universe/external/muSSP:
     type: git
     url: https://github.com/vautonomous/muSSP.git
-    version: tier4/main
+    version: galactic-backup
   universe/external/ndt_omp:
     type: git
     url: https://github.com/vautonomous/ndt_omp.git
-    version: tier4/main
+    version: galactic-backup
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/vautonomous/pointcloud_to_laserscan.git
-    version: tier4/main
+    version: galactic-backup
   # launcher
   launcher/autoware_launch:
     type: git
     url: https://github.com/vautonomous/autoware_launch.git
-    version: on-vehicle
+    version: galactic-backup
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/vautonomous/sensor_component_description.git
-    version: main
+    version: galactic-backup
   sensor_component/external/tamagawa_imu_driver:
     type: git
     url: https://github.com/vautonomous/tamagawa_imu_driver.git
-    version: ros2
+    version: galactic-backup
   sensor_component/external/applanix:
     type: git
     url: https://github.com/vautonomous/applanix.git
@@ -70,45 +70,45 @@ repositories:
   sensor_component/external/velodyne_vls:
     type: git
     url: https://github.com/vautonomous/velodyne_vls.git
-    version: tier4/universe
+    version: galactic-backup
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/vautonomous/sample_sensor_kit_launch.git
-    version: main
+    version: galactic-backup
   sensor_kit/isuzu_sensor_launch:
     type: git
     url: https://github.com/vautonomous/isuzu_sensor_launch.git
-    version: main
+    version: galactic-backup
   # vehicle
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/vautonomous/sample_vehicle_launch.git
-    version: main
+    version: galactic-backup
   vehicle/isuzu_vehicle_launch:
     type: git
     url: https://github.com/vautonomous/isuzu_vehicle_launch.git
-    version: master
+    version: galactic-backup
   vehicle/pacmod_interface:
     type: git
     url: https://github.com/vautonomous/pacmod_interface.git
-    version: main
+    version: galactic-backup
   vehicle/isuzu_interface:
     type: git
     url: https://github.com/vautonomous/vehicle_interface.git
-    version: main
+    version: galactic-backup
   # param
   param/autoware_individual_params:
     type: git
     url: https://github.com/vautonomous/autoware_individual_params.git
-    version: main
+    version: galactic-backup
   # local_pose_publisher
   universe/external/local_pose_publisher:
     type: git
     url: https://github.com/vautonomous/local_pose_publisher.git
-    version: master
+    version: galactic-backup
   # ui_process_manager
   universe/external/ui_process_manager:
     type: git
     url: https://github.com/vautonomous/ui_process_manager.git
-    version: main
+    version: galactic-backup
