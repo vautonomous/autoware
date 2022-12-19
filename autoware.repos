@@ -67,6 +67,11 @@ repositories:
     type: git
     url: https://github.com/vautonomous/velodyne_vls.git
     version: tier4/universe
+  #TODO(kaan): (Applanix)Comment out until the package is ready
+  sensor_component/external/applanix:
+    type: git
+    url: https://github.com/vautonomous/applanix.git
+    version: humble_on_vehicle
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
@@ -76,6 +81,10 @@ repositories:
     type: git
     url: https://github.com/vautonomous/awsim_sensor_kit_launch.git
     version: main
+  sensor_kit/isuzu_sensor_launch:
+    type: git
+    url: https://github.com/vautonomous/isuzu_sensor_launch.git
+    version: galactic-backup
   # vehicle
   vehicle/sample_vehicle_launch:
     type: git
@@ -85,8 +94,27 @@ repositories:
     type: git
     url: https://github.com/vautonomous/pacmod_interface.git
     version: main
+  vehicle/isuzu_vehicle_launch:
+    type: git
+    url: https://github.com/vautonomous/isuzu_vehicle_launch.git
+    version: galactic-backup
+  vehicle/isuzu_interface:
+    type: git
+    url: https://github.com/vautonomous/vehicle_interface.git
+    version: humble-dev
   # param
   param/autoware_individual_params:
     type: git
     url: https://github.com/vautonomous/autoware_individual_params.git
     version: main
+  #TODO(kaan): (local_pose_publisher)Comment out until the package is ready
+  # local_pose_publisher
+  #universe/external/local_pose_publisher:
+  #  type: git
+  #  url: https://github.com/vautonomous/local_pose_publisher.git
+  #  version: galactic-backup
+  # ui_process_manager
+  universe/external/ui_process_manager:
+    type: git
+    url: https://github.com/vautonomous/ui_process_manager.git
+    version: galactic-backup
