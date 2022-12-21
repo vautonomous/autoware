@@ -67,11 +67,14 @@ repositories:
     type: git
     url: https://github.com/vautonomous/velodyne_vls.git
     version: tier4/universe
-  #TODO(kaan): (Applanix)Comment out until the package is ready
   sensor_component/external/applanix:
     type: git
     url: https://github.com/vautonomous/applanix.git
     version: humble_on_vehicle
+  sensor_component/external/lucid_vision_driver:
+    type: git
+    url: https://github.com/voltonomous/lucid_vision_driver.git
+    version: on-vehicle
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
