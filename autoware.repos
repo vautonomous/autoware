@@ -53,7 +53,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/vautonomous/autoware_launch.git
-    version: main
+    version: on-vehicle
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
