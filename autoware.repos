@@ -110,12 +110,11 @@ repositories:
     type: git
     url: https://github.com/vautonomous/autoware_individual_params.git
     version: main
-  #TODO(kaan): (local_pose_publisher)Comment out until the package is ready
   # local_pose_publisher
-  #universe/external/local_pose_publisher:
-  #  type: git
-  #  url: https://github.com/vautonomous/local_pose_publisher.git
-  #  version: galactic-backup
+  universe/external/local_pose_publisher:
+    type: git
+    url: https://github.com/vautonomous/local_pose_publisher.git
+    version: master
   # ui_process_manager
   universe/external/ui_process_manager:
     type: git
