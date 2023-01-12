@@ -28,7 +28,7 @@ repositories:
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/vautonomous/tier4_ad_api_adaptor.git
-    version: tier4/universe
+    version: on-vehicle
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/vautonomous/tier4_autoware_msgs.git
