@@ -73,7 +73,7 @@ repositories:
     version: humble_on_vehicle
   sensor_component/external/lucid_vision_driver:
     type: git
-    url: https://github.com/voltonomous/lucid_vision_driver.git
+    url: https://github.com/vautonomous/lucid_vision_driver.git
     version: on-vehicle
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
