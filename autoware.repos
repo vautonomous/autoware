@@ -78,7 +78,7 @@ repositories:
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
-    url: https://github.com/vautonomous/sample_sensor_kit_launch.git
+    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
     version: main
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
@@ -87,7 +87,7 @@ repositories:
   sensor_kit/isuzu_sensor_launch:
     type: git
     url: https://github.com/vautonomous/isuzu_sensor_launch.git
-    version: galactic-backup
+    version: main
   # vehicle
   vehicle/sample_vehicle_launch:
     type: git
