@@ -29,10 +29,6 @@ repositories:
     type: git
     url: https://github.com/vautonomous/tier4_autoware_msgs.git
     version: galactic-backup
-  universe/external/grid_map:
-    type: git
-    url: https://github.com/vautonomous/grid_map.git
-    version: ba2f9cb6e62f7ee9c5bac7401391a211e442e459
   universe/external/morai_msgs:
     type: git
     url: https://github.com/vautonomous/MORAI-ROS2_morai_msgs.git
@@ -66,7 +62,7 @@ repositories:
   sensor_component/external/applanix:
     type: git
     url: https://github.com/vautonomous/applanix.git
-    version: on_vehicle
+    version: humble_on_vehicle
   sensor_component/external/velodyne_vls:
     type: git
     url: https://github.com/vautonomous/velodyne_vls.git
@@ -106,7 +102,7 @@ repositories:
   universe/external/local_pose_publisher:
     type: git
     url: https://github.com/vautonomous/local_pose_publisher.git
-    version: galactic-backup
+    version: master
   # ui_process_manager
   universe/external/ui_process_manager:
     type: git
