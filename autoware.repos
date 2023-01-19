@@ -71,7 +71,7 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/vautonomous/sample_sensor_kit_launch.git
-    version: galactic-backup
+    version: main
   sensor_kit/isuzu_sensor_launch:
     type: git
     url: https://github.com/vautonomous/isuzu_sensor_launch.git
