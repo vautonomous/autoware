@@ -71,7 +71,7 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/vautonomous/sample_sensor_kit_launch.git
-    version: main
+    version: backup-humble
   sensor_kit/isuzu_sensor_launch:
     type: git
     url: https://github.com/vautonomous/isuzu_sensor_launch.git
@@ -102,7 +102,7 @@ repositories:
   universe/external/local_pose_publisher:
     type: git
     url: https://github.com/vautonomous/local_pose_publisher.git
-    version: master
+    version: humble
   # ui_process_manager
   universe/external/ui_process_manager:
     type: git
