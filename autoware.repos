@@ -20,7 +20,7 @@ repositories:
   universe/autoware.universe:
     type: git
     url: https://github.com/vautonomous/autoware.universe.git
-    version: backup-humble
+    version: multi-config
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/vautonomous/tier4_ad_api_adaptor.git
@@ -49,7 +49,7 @@ repositories:
   launcher/autoware_launch:
     type: git
     url: https://github.com/vautonomous/autoware_launch.git
-    version: backup-humble
+    version: multi-config
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
