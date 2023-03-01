@@ -84,7 +84,7 @@ repositories:
   vehicle/isuzu_vehicle_launch:
     type: git
     url: https://github.com/vautonomous/isuzu_vehicle_launch.git
-    version: galactic-backup
+    version: backup-humble
   vehicle/pacmod_interface:
     type: git
     url: https://github.com/vautonomous/pacmod_interface.git
@@ -107,4 +107,4 @@ repositories:
   universe/external/ui_process_manager:
     type: git
     url: https://github.com/vautonomous/ui_process_manager.git
-    version: backup-humble
+    version: multi-config
